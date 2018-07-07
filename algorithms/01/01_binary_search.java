@@ -11,7 +11,7 @@ public class BinarySearch {
       if(guess == item){
         return mid;
       }
-      if(guess < item){
+      if(guess > item){
         high = mid - 1;
       } else {
         low = mid + 1;
